@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero page-hero--compact">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner reveal">
+    <h1 class="page-hero__title">Frequently asked questions</h1>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container container--narrow">
+    <div class="faq-list reveal" data-accordion>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-1" id="faq-trigger-1">
+          <span>What does VisioClinical AI do?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-1" role="region" aria-labelledby="faq-trigger-1" hidden>
+          <p>VisioClinical AI builds camera-based clinical assessment tools that help providers capture objective physical-exam findings from patient images and videos.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-2" id="faq-trigger-2">
+          <span>Is VisioClinical AI an ambient documentation tool?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-2" role="region" aria-labelledby="faq-trigger-2" hidden>
+          <p>Not exactly. Traditional ambient AI tools focus on listening to clinical conversations and drafting notes. VisioClinical AI focuses on visual clinical assessment, including movement, wounds, neurologic findings, and other observable physical-exam data.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-3" id="faq-trigger-3">
+          <span>Does the platform require special hardware?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-3" role="region" aria-labelledby="faq-trigger-3" hidden>
+          <p>No. VisioClinical AI is designed to work with standard smartphones, tablets, laptops, and webcams.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-4" id="faq-trigger-4">
+          <span>Who reviews the AI output?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-4" role="region" aria-labelledby="faq-trigger-4" hidden>
+          <p>The clinician or care team reviews the output. VisioClinical AI is designed to support clinical decision-making, not replace provider judgment.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-5" id="faq-trigger-5">
+          <span>What is ArmorMed?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-5" role="region" aria-labelledby="faq-trigger-5" hidden>
+          <p>ArmorMed is VisioClinical AI's flagship product. It uses patient videos to automatically measure range of motion and mobility.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-6" id="faq-trigger-6">
+          <span>What is WoundGuard?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-6" role="region" aria-labelledby="faq-trigger-6" hidden>
+          <p>WoundGuard is being developed to support remote wound and surgical-incision monitoring using patient-submitted images.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-7" id="faq-trigger-7">
+          <span>What is TremorTrack?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-7" role="region" aria-labelledby="faq-trigger-7" hidden>
+          <p>TremorTrack is being developed to support video-based screening of visible neurologic findings such as tremor, motion abnormalities, facial asymmetry, and weakness-related movement changes.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-8" id="faq-trigger-8">
+          <span>Can VisioClinical AI be used remotely?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-8" role="region" aria-labelledby="faq-trigger-8" hidden>
+          <p>Yes. The platform is designed for both remote and in-clinic workflows.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-9" id="faq-trigger-9">
+          <span>Is VisioClinical AI meant to replace in-person exams?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-9" role="region" aria-labelledby="faq-trigger-9" hidden>
+          <p>No. VisioClinical AI is meant to help clinicians collect objective physical-exam data when remote assessment is appropriate and to help determine when in-person evaluation is needed.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__trigger" aria-expanded="false" aria-controls="faq-10" id="faq-trigger-10">
+          <span>Why is this important for rural care?</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__panel" id="faq-10" role="region" aria-labelledby="faq-trigger-10" hidden>
+          <p>Rural patients often face long travel distances, limited transportation, fewer nearby specialists, and reduced access to frequent in-person follow-up. VisioClinical AI helps care teams monitor patients remotely using devices patients already have.</p>
+        </div>
+      </div>
+    </div>
+    <p class="faq-cta reveal">Still have questions? <a href="{{ url_for('contact') }}">Contact our team</a>.</p>
+  </div>
+</section>
+{% endblock %}

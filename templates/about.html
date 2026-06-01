@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero page-hero--about">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner reveal">
+    <h1 class="page-hero__title">Building AI tools that capture what clinicians need to see</h1>
+    <p class="page-hero__subtitle">
+      We're a clinical AI software company focused on making remote physical examination more objective, accessible, and scalable.
+    </p>
+  </div>
+</section>
+
+<section class="section section--mission">
+  <div class="container">
+    <blockquote class="mission-block reveal">
+      <div class="mission-ornament mission-ornament--dots" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <p class="mission-block__text">
+        Our mission is to make remote physical examination objective, accessible, and clinically useful for every care setting.
+      </p>
+      <div class="mission-ornament mission-ornament--line" aria-hidden="true"></div>
+    </blockquote>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container about-story">
+    <h2 class="section__title about-story__heading reveal">About us</h2>
+    <div class="about-story__grid">
+      <div class="about-story__content reveal">
+        <p class="about-story__lead">VisioClinical AI is a clinical AI software company focused on making remote physical examination more objective, accessible, and scalable.</p>
+        <p>The company was built around a simple clinical insight: virtual care cannot reach its full potential if clinicians can only hear what patients say, but cannot reliably measure what patients show.</p>
+        <p>Our team is developing camera-based tools that help providers capture meaningful physical exam data from standard patient devices. Beginning with ArmorMed for automated range of motion and mobility assessment, VisioClinical AI is expanding into additional visual assessment domains including wound monitoring and neurologic screening.</p>
+        <p>Our goal is to help care teams deliver more informed, efficient, and accessible care without requiring patients to travel for every routine physical assessment.</p>
+      </div>
+      <div class="about-story__aside reveal reveal--delay">
+        <div class="about-timeline">
+          <div class="about-timeline__item">
+            <span class="about-timeline__dot"></span>
+            <div>
+              <h3>Clinical insight</h3>
+              <p>Virtual care needs measurable physical-exam data—not only conversation.</p>
+            </div>
+          </div>
+          <div class="about-timeline__item">
+            <span class="about-timeline__dot"></span>
+            <div>
+              <h3>ArmorMed</h3>
+              <p>Flagship automated range-of-motion and mobility assessment.</p>
+            </div>
+          </div>
+          <div class="about-timeline__item">
+            <span class="about-timeline__dot"></span>
+            <div>
+              <h3>Expanding platform</h3>
+              <p>WoundGuard and TremorTrack extend camera-based assessment.</p>
+            </div>
+          </div>
+          <div class="about-timeline__item">
+            <span class="about-timeline__dot"></span>
+            <div>
+              <h3>Accessible care</h3>
+              <p>Objective follow-up without unnecessary travel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--beliefs" id="beliefs">
+  <div class="container">
+    <div class="section__header reveal">
+      <h2 class="section__title section__title--light">Principles that guide our work</h2>
+    </div>
+    <div class="beliefs-grid">
+      <article class="belief-card reveal">
+        <div class="belief-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        </div>
+        <h3 class="belief-card__label">Remote care should include objective clinical data.</h3>
+      </article>
+      <article class="belief-card reveal reveal--delay">
+        <div class="belief-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="belief-card__label">Virtual consultations and progress appointments improve the accessibility and efficiency of clinical care.</h3>
+      </article>
+      <article class="belief-card reveal reveal--delay-2">
+        <div class="belief-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        </div>
+        <h3 class="belief-card__label">Clinical tools intended to increase accessibility should not require specialized hardware.</h3>
+      </article>
+      <article class="belief-card reveal reveal--delay">
+        <div class="belief-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="belief-card__label">AI should support clinicians, not replace them.</h3>
+      </article>
+    </div>
+  </div>
+</section>
+{% endblock %}
