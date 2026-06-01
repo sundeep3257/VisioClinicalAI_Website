@@ -38,8 +38,8 @@ def index():
         "index.html",
         title="VisioClinical AI | Clinical Vision for Virtual Care",
         meta_description=(
-            "VisioClinical AI turns patient cameras into clinical assessment tools. "
-            "Capture objective physical-exam findings remotely with camera-based AI."
+            "VisioClinical AI helps physicians document objective physical-exam data in clinic "
+            "and support remote monitoring with camera-based clinical assessment tools."
         ),
     )
 
